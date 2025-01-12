@@ -126,6 +126,9 @@ main {
     background-size: 950px;
     background-position: right -260px bottom -550px;
   }
+  .card {
+    width: 350px;
+  }
   .card-contnet {
     img {
       width: 98px;
@@ -141,5 +144,14 @@ main {
     p {
       margin-bottom: 1.5rem;
     }
+  }
+  .card-footer {
+    border-top: 1px solid hsl(225, 22%, 93%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-inline: 1.5rem;
+    padding-block-start: 1.4rem;
+    padding-block-end: 1.6rem;
   }
 }
